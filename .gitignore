@@ -1,0 +1,29 @@
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit and local app artifacts
+.streamlit/
+*.log
+
+# Model / app generated outputs
+single_prediction_result.png
+prediction_result.png
+bias_variance_analysis.png
+confusion_matrix.png
+roc_auc_curves.png
+cv_f1_comparison.png
+mfcc1_boxplot.png
+mfcc_correlation.png
+augmentation_comparison.png
+class_balance_pie.png
+spectral_features.png
+
+# Large local dataset folder
+audio_speech_actors_01-24/

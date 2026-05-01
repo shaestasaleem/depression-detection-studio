@@ -1,0 +1,26 @@
+{
+    "project": "Acoustic Biomarkers for Depression Detection",
+    "student": "Shaesta Saleem",
+    "reg_no": "DSAI231103043",
+    "saved_at": "2026-04-29 16:12:56",
+    "best_model_name": "SVM (RBF)",
+    "model_class": "SVC",
+    "test_accuracy": 0.8148,
+    "cv_f1_mean": 0.8098,
+    "cv_f1_std": 0.0357,
+    "train_accuracy": 0.9143,
+    "overfit_gap": 0.0995,
+    "feature_type": "MFCC-40 (mean over time)",
+    "dataset": "RAVDESS",
+    "classes": [
+        "Healthy",
+        "Sad_Depressed"
+    ],
+    "n_train_samples": 537,
+    "n_test_samples": 135,
+    "files": {
+        "model": "best_model.pkl",
+        "scaler": "scaler.pkl",
+        "label_encoder": "label_encoder.pkl"
+    }
+}
